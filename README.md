@@ -3,7 +3,7 @@
 
 The sensor is a variable resistor called a photo-resistor or LDR.  
 The resistor value will change with the amount of light. 
-A high amount of light and resistance will decrease  so that the voltage over the wresistor will increase and the voltage over the fixed 2.2Kohm resisitor will increase. 
+A high amount of light and the LDR resistance will decrease so that the voltage over the fixed resistor will increase and thus the voltage over the fixed resisitor will increase. 
 The voltage changes from 0 to 5V. Arduino has 6 analog to digital convertors (ADC). The voltage value can be read on pin A0 and the value range from from 0 to 1023 
 
 We read the value of the ADC, and then play a diferent sound file.
