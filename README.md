@@ -14,6 +14,9 @@ For example "play" and "stop". After starting the play, we must wait a few secon
 The files must be named 0001.mp3 to 0005.mp3 and placed in a subfolder on the SD card.
 The SD card must be FAT formatted.
 
+The code sets a target value with a range in which the target lies.
+When the value is within the target range 0003.mp3 file will be played back.
+
 The usage of the files are as follows:
 
 - 0001.mp3 far away 
