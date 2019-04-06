@@ -1,13 +1,15 @@
 
 # ARDUINO LIGHT DFPLAYER
 
-The sensor is a variable resistor called a  photo-resistor.  The resistor value will change with the amount of light. A high amount of light and resistance will decrease  so that the voltage over the wresistor will increase and the voltage over the fixed 2.2Kohm resisitor will increase. the voltage changes from 0 to 5V. Arduino has 6 analog to digital convertors (ADC). The voltage value can be read on pin A0 and the value range from from 0 to 1023 
+The sensor is a variable resistor called a photo-resistor or LDR.  
+The resistor value will change with the amount of light. 
+A high amount of light and resistance will decrease  so that the voltage over the wresistor will increase and the voltage over the fixed 2.2Kohm resisitor will increase. 
+The voltage changes from 0 to 5V. Arduino has 6 analog to digital convertors (ADC). The voltage value can be read on pin A0 and the value range from from 0 to 1023 
 
 We read the value of the ADC, and then play a diferent sound file.
-The sound file was recorded using a mobile phone to WAV and then converted to MP$ by VLC media player
 
 The sound files are played using an DFPlayer. Using the serial port from the arduino, commands can be send to the DFplayer
-For example "play" adnd "stop". After starting the play, we must wait a few seconds for the audio to complete.
+For example "play" and "stop". After starting the play, we must wait a few seconds for the audio to complete.
 
 The files must be named 0001.mp3 to 0005.mp3 and placed in a subfolder on the SD card.
 The SD card must be FAT formatted.
