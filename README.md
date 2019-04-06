@@ -41,7 +41,7 @@ Updating MP3 files can be done using the USB connector.
 * [dfplayer] - DFplayer Mini
 * [usb] - USB type B connector
 * [switch] - Mini Push Button Switch Latching type - DPDT
-* [resistors] - Some resistors
+* Some resistors
 * [sensor] - LDR photo resistor
 
 [uno]:  https://www.arduino.cc/	
