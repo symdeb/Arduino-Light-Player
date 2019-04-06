@@ -20,9 +20,15 @@ The usage of the files are as follows:
 - 0004.mp3 to close
 - 0005.mp3 very close
 
-There is a switch and a USB connector. when a conputer is connected to the USB port and the switch is set in "ON" position, then powr onthe Arduno, the dfplayer will act an an USB drive and files can be moved from the PC to the dfplayer. 
-This mmakes it conventient to change files and not need to take out the SD card.  After transfer, the swiych must be set ot OFF and the Arduno reset.
+Updating MP3 files can be done using the USB connector. 
 
+1. Set the switch is set in "ON" position
+2. Connect a computer is to the DFPlayer USB connector
+3. Connect powerto the Arduino
+4. The dfplayer will act an an USB drive and files can be moved from the PC to the dfplayer. 
+5. Disconnect the usb connectors
+6. Set the switch to  "OFF"
+7. Power on the Arduino.
 ** List of materials **
 
 * [uno] - Arduino Uno 
