@@ -1,6 +1,8 @@
 
 # ARDUINO LIGHT DFPLAYER
 
+This was a small  project for some students in Industrial Design class for Installation Art.
+
 The sensor is a variable resistor called a photo-resistor or LDR.  
 The resistor value will change with the amount of light. 
 A high amount of light and the LDR resistance will decrease so that the voltage over the fixed resistor will increase and thus the voltage over the fixed resisitor will increase. 
